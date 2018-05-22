@@ -10,7 +10,7 @@ This repository contains the source for the [aiPhilos](https://aiphilos.com) doc
 1. Install dependencies: `pip install sphinx sphinx-autobuild sphinx_rtd_theme recommonmark`
 1. Clone repository: `git clone https://github.com/aiphilos/docs.git`
 1. Make your changes
-1. Build: `make html` in the root folder
+1. Build: `make html` in the root folder (or `make.bat html` on Windows)
 1. Updated website HTML is now in `_build/`
 
 ## Contact
