@@ -1,19 +1,33 @@
-.. aiphilos documentation master file, created by
-   sphinx-quickstart on Tue May 22 14:15:29 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. aiphilos documentation master file.
 
-Welcome to aiphilos's documentation!
-====================================
+aiPhilos Dokumentation
+======================
+
+Willkommen in der offiziellen aiPhilos-Dokumentation.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Über aiPhilos
+   :name: sec-about
 
+   about/index
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
+   :name: sec-getting_started
 
-Indices and tables
-==================
+   getting_started/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: SDKs
+   :name: sec-sdks
+
+   sdks/index
+
+Index und Verzeichnisse
+=======================
 
 * :ref:`genindex`
 * :ref:`modindex`
