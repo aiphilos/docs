@@ -1,13 +1,13 @@
 .. aiphilos documentation master file.
 
-aiPhilos Dokumentation
+aiPhilos Documentation
 ======================
 
-Willkommen in der offiziellen aiPhilos-Dokumentation.
+Welcome to the official aiphilos documentation.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Über aiPhilos
+   :caption: About aiPhilos
    :name: sec-about
 
    about/index
@@ -26,7 +26,7 @@ Willkommen in der offiziellen aiPhilos-Dokumentation.
 
    sdks/index
 
-Index und Verzeichnisse
+Index And Directories
 =======================
 
 * :ref:`genindex`
