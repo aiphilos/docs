@@ -13,6 +13,8 @@ This repository contains the source for the [aiPhilos](https://aiphilos.com) doc
 1. Build: `make html` in the root folder (or `make.bat html` on Windows)
 1. Updated website HTML is now in `_build/`
 
+To clean up old caches, you can run `make clean` (or `make.bat clean` on Windows) before `make html`.
+
 ## Contact
 
 Feel free to [contact us](https://www.aiphilos.com/kontakt)!
