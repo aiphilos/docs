@@ -5,6 +5,8 @@ aiPhilos Documentation
 
 Welcome to the official aiPhilos documentation.
 
+If you are interested in our API-Documentation, have a look here: https://docs.aiphilos.com/api/
+
 .. toctree::
    :maxdepth: 2
    :caption: About aiPhilos
