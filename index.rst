@@ -3,7 +3,7 @@
 aiPhilos Documentation
 ======================
 
-Welcome to the official aiphilos documentation.
+Welcome to the official aiPhilos documentation.
 
 .. toctree::
    :maxdepth: 2
