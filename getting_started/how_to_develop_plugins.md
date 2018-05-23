@@ -12,5 +12,8 @@ Visit our [webseite](https://www.aiphilos.com/partnerprogramm/entwicklungspartne
 ### download the neccessary SDK
 we provide SDKs to make aiPhilos integration easier. Download the one you need and integrate it into your project.
 
+### have a look a our api documentation
+https://docs.aiphilos.com/api/
+
 ### start developing!
 
