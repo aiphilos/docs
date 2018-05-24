@@ -23,10 +23,10 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
 
 .. toctree::
    :maxdepth: 2
-   :caption: SDKs
-   :name: sec-sdks
+   :caption: Development
+   :name: sec-dev
 
-   sdks/index
+   dev/index
 
 Index And Directories
 =======================
