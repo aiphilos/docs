@@ -9,10 +9,9 @@ Schemetypes
 
  There are several schemetypes available. These can be set via the scheme-endpoint.
 
- Thee types help aiPhilos interpret and classify you data, so that searches can be more accurate.
+ These types help aiPhilos interpret and classify you data, so that searches can be more accurate.
 
- .. literalinclude:: ../shared/scheme_types.js
-   :language: javascript
+ .. literalinclude:: ../shared/scheme_types.txt
 
  - **general.auto** - aiPhilos standard mode of interpretation
  - **general.off** - tells aiPhilos not to interpret this field

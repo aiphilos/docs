@@ -1,0 +1,1 @@
+https://api.aiphilos.com/v1/{language}/items/{db}/scheme

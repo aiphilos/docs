@@ -4,7 +4,7 @@ Plugin Development
 
 A working plugin for aiPhilos is easy to develop and it requires only 3 steps to actually get started.
 
-This guide assumes, that you have at least created an aiPhilos account and a created a user so you can actually test your plugin against our api.
+This guide assumes that you have at least created an aiPhilos account and that you have created a user so you can actually test your plugin against our api.
 If you are unsure how to do this, have a look at :ref:`third_party_integrations`.
 
 Apart from that your plugin needs to do the following things:
@@ -16,16 +16,8 @@ Create a database and sync items
 
  the url for the batch-endpoint is: 
 
- .. highlight:: html
+ .. literalinclude:: ../shared/endpoints/POST_batch.txt
 
- ::
-
-    https://api.aiphilos.com/v1/{language}/items/{db}/batch
-
-
- .. highlight:: none
- 
- 
 
  Because of the time being, aiPhilos is only available in german, you will need to **replace {langauge} with 'de' (without the quotes)** and **{db} with the database name of your choice**.
 
@@ -60,7 +52,9 @@ Create a database and sync items
 
  **2. Please be aware that the batch-endpoint has a limit of 1000 items per request. Please make sure to send the items that should be indexed in chunks of no more than 1000 items.**
 
- The full documentation for the batch endpoint is available at https://docs.aiphilos.com/api/#/items/post__language__items__db__batch
+ The full documentation for the batch endpoint is available at:
+ 
+ .. include:: ../shared/docLinks/batchEndpointLink.txt
 
 Set an appropriate scheme
 =========================
@@ -94,14 +88,7 @@ Set an appropriate scheme
 
  The url of the endpoint is: 
 
- .. highlight:: html
-
- ::
-
-    https://api.aiphilos.com/v1/{language}/items/{db}/batch    
-
-
- .. highlight:: none
+ .. literalinclude:: ../shared/endpoints/PUT_scheme.txt
 
 
  as before, **replace {language} with 'de'** (without the quotes) and **{db} with the name of the database that you created earlier**.
@@ -119,13 +106,16 @@ Set an appropriate scheme
 
  the following scheme-types are available:
 
- .. literalinclude:: ../shared/scheme_types.js
-    :language: javascript
+ .. literalinclude:: ../shared/scheme_types.txt
 
 
-For more information have a look at :ref:`terminology_scheme`.
+ For more information have a look at :ref:`terminology_scheme`.
 
- The full documentation for the batch endpoint is available at https://docs.aiphilos.com/api/#/items/put__language__items__db__scheme
+ The full documentation for the scheme endpoint is available at:
 
-For more information have a look at our API-Documentation at https://docs.aiphilos.com/api/
+ .. include:: ../shared/docLinks/schemeEndpointLink.txt
+
+ For more detailed information regarding the API have a look at our API-Documentation:
+
+ .. include:: ../shared/docLinks/swaggerLink.txt
 
