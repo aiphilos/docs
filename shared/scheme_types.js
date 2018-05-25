@@ -1,6 +1,5 @@
 general.auto
 general.off
-general.raw
 product.number
 product.name
 product.category
@@ -9,8 +8,6 @@ product.price
 product.gtin
 product.manufacturer
 product.manufacturer_number
-product.modifier
-product.object
 product.stock
 product.supplier
 product.supplier_number
