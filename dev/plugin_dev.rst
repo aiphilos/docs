@@ -45,12 +45,12 @@ Create a database and sync items
     }
 
  
-
+ 
  **Two important points:**
 
- **1. The properties '_id' and '_action' are mandatory. the _id property for every item needs to be unique and _action needs to be set to POST so the item gets indexed by aiPhilos**
+ .. note :: *The properties '_id' and '_action' are mandatory. the _id property for every item needs to be unique and _action needs to be set to POST so the item gets indexed by aiPhilos**
 
- **2. Please be aware that the batch-endpoint has a limit of 1000 items per request. Please make sure to send the items that should be indexed in chunks of no more than 1000.**
+ .. note :: **Please be aware that the batch-endpoint has a limit of 1000 items per request. Please make sure to send the items that should be indexed in chunks of no more than 1000.**
 
  The full documentation for the batch endpoint is available at:
  
@@ -80,7 +80,7 @@ Set an appropriate scheme
         ]
     }
 
-Here *custom_prop* could mean several things. It could be a price, a rating or even a measurement.
+ Here *custom_prop* could mean several things. It could be a price, a rating or even a measurement.
 
  By setting a scheme you can make sure that your data is interpreted as expected. Depending on the search query this could mean that that prices or ratings are used to order items appropriately, that manufacturers are recognized as such and that gtins or that the frequency of an item being ordered is being taken into account when searching with aiPhilos
   
@@ -139,7 +139,7 @@ Search
  - **unsorted** : switch sorting on or off. false by default
  - **nlp_mode** : Natural-Language-Processing (NLP) Mode
 
- **Note that only the query parameter is required. All others are optional**
+ .. note :: **Only the query parameter is required. All others are optional**
 
  depending on how you send the request, these parameters need to be sent **either as query-paramerts (GET-Request) or as part of a json payload (POST-Request)**.
 
@@ -160,7 +160,7 @@ Important Information
 
  The full documentation for both endpoints can be looked up here:
 
-  .. include:: ../shared/docLinks/searchEndpointLinks.txt
+ .. include:: ../shared/docLinks/searchEndpointLinks.txt
 
  
 Further documentation
