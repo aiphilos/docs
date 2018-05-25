@@ -1,0 +1,2 @@
+https://docs.aiphilos.com/api/#/items/get__language__items__db__search
+https://docs.aiphilos.com/api/#/items/post__language__items__db__search

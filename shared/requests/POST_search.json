@@ -1,0 +1,9 @@
+{
+    "query": "exampleQuery",
+    "from": 0,
+    "size": 0,
+    "sort": "fieldToOrderBy",
+    "order": "asc",
+    "unsorted": false,
+    "nlp_mode": "auto"
+  }

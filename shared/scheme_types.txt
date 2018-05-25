@@ -1,0 +1,16 @@
+general.auto
+general.off
+product.number
+product.name
+product.category
+product.description
+product.price
+product.gtin
+product.manufacturer
+product.manufacturer_number
+product.stock
+product.supplier
+product.supplier_number
+product.rating
+product.state
+order.frequency

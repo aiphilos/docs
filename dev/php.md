@@ -1,4 +1,4 @@
-# aiPhilos PHP-SDK
+# PHP-SDK
 
 [![Build Status](https://travis-ci.org/aiphilos/api-sdk-php.svg?branch=master)](https://travis-ci.org/aiphilos/api-sdk-php) [![Latest Stable Version](https://poser.pugx.org/aiphilos/api-sdk-php/v/stable)](https://packagist.org/packages/aiphilos/api-sdk-php) [![Total Downloads](https://poser.pugx.org/aiphilos/api-sdk-php/downloads)](https://packagist.org/packages/aiphilos/api-sdk-php) [![Latest Unstable Version](https://poser.pugx.org/aiphilos/api-sdk-php/v/unstable)](https://packagist.org/packages/aiphilos/api-sdk-php) [![License](https://poser.pugx.org/aiphilos/api-sdk-php/license)](https://packagist.org/packages/aiphilos/api-sdk-php)
 

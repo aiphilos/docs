@@ -5,7 +5,11 @@ aiPhilos Documentation
 
 Welcome to the official aiPhilos documentation.
 
-If you are interested in our API-Documentation, have a look here: https://docs.aiphilos.com/api/
+.. _a link: https://domain.invalid/
+
+If you are interested in our full API-Documentation, follow this link:
+
+.. include:: shared/docLinks/swaggerLink.txt
 
 .. toctree::
    :maxdepth: 2
@@ -19,14 +23,16 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
    :caption: Getting Started
    :name: sec-getting_started
 
-   getting_started/index
+   getting_started/integration  
 
 .. toctree::
    :maxdepth: 2
-   :caption: SDKs
-   :name: sec-sdks
+   :caption: Development
+   :name: sec-dev
 
-   sdks/index
+   dev/sdks
+   dev/plugin_dev
+   dev/terminology
 
 Index And Directories
 =======================
@@ -34,3 +40,4 @@ Index And Directories
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
