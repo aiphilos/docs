@@ -28,6 +28,7 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
 
    dev/index
    dev/plugin_dev
+   dev/terminology
 
 Index And Directories
 =======================

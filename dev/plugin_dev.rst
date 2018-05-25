@@ -119,23 +119,11 @@ Set an appropriate scheme
 
  the following scheme-types are available:
 
- .. highlight:: html
-
- ::
-
-    general.auto
-    product.number
-    product.name
-    product.description
-    product.price
-    product.gtin
-    product.manufacturer
-    product.rating
-    product.state
-    order.frequency
+ .. literalinclude:: ../shared/scheme_types.js
+    :language: javascript
 
 
- .. highlight:: none
+For more information have a look at :ref:`terminology_scheme`.
 
  The full documentation for the batch endpoint is available at https://docs.aiphilos.com/api/#/items/put__language__items__db__scheme
 
