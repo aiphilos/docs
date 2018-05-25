@@ -1,7 +1,7 @@
 .. _third_party_integrations:
 
 
-Third-Party integrations
+Third-Party Integrations
 ========================
 
 

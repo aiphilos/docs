@@ -8,5 +8,5 @@ These small applications are then integrated into third party solutions (e. g. s
    :maxdepth: 1
    :name: toc-getting_started
 
-   develop_plugins
+   third_party_how_to
    shopware

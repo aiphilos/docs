@@ -5,7 +5,9 @@ aiPhilos Documentation
 
 Welcome to the official aiPhilos documentation.
 
-If you are interested in our API-Documentation, have a look here: https://docs.aiphilos.com/api/
+If you are interested in our full API-Documentation, follow this link:
+
+.. include:: shared/docLinks/swaggerLink.txt
 
 .. toctree::
    :maxdepth: 2
@@ -19,14 +21,14 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
    :caption: Getting Started
    :name: sec-getting_started
 
-   getting_started/index  
+   getting_started/integration  
 
 .. toctree::
    :maxdepth: 2
    :caption: Development
    :name: sec-dev
 
-   dev/index
+   dev/sdks
    dev/plugin_dev
    dev/terminology
 
