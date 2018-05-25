@@ -3,9 +3,13 @@
 scheme/scheme-type
 ==================
 
-There are several scheme-types available. These can be set via the scheme-endpoint.
+ There are several scheme-types available. These can be set via the scheme-endpoint.
 
- These types help aiPhilos interpret and classify you data, so that searches can be more accurate. The followin scheme-types exist
+ .. include:: ../../shared/docLinks/schemeEndpointLink.txt
+
+ These types help aiPhilos interpret and classify you data, so that searches can be more accurate. 
+ 
+ The following scheme-types can be set:
 
  .. literalinclude:: ../../shared/scheme_types.txt
 
@@ -27,8 +31,8 @@ There are several scheme-types available. These can be set via the scheme-endpoi
  - **order.frequency** - information on how often the item is ordered
 
  Setting a scheme allows aiPhilos to be more specific and accurate when interpreting the items of your shop and therefore allowing for better search result.
- Item-fields for which no scheme is set are interpreted as type general.auto, meaning that aiPhilos will analyze their contents use this additional information when classifying an item.
- If you want to explicitly exclude some fields set their scheme-type to general.off.
+ Item-fields for which no scheme is set are interpreted as type *general.auto*, meaning that aiPhilos will analyze their contents and use this additional information when classifying an item.
+ If you want to explicitly exclude some fields you need to set their scheme-type to *general.off*.
 
- The general rule of thumb is, that the more accurate you set the scheme-types of your data (e. g. setting the manufacturers, the ratings prices etc) the better aiPihlos will be able to interpret the items in your shop and the better the results will be when searches from users should take into account the manufacturer or should order items by price
+ **The general rule of thumb is, that the more accurate you set the scheme-types of your data (e. g. setting the manufacturers, the ratings, prices etc) the better aiPihlos will be able to interpret the items in your shop and the better the results will be eventually.**
 

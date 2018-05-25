@@ -5,6 +5,8 @@ aiPhilos Documentation
 
 Welcome to the official aiPhilos documentation.
 
+.. _a link: https://domain.invalid/
+
 If you are interested in our full API-Documentation, follow this link:
 
 .. include:: shared/docLinks/swaggerLink.txt
@@ -38,3 +40,4 @@ Index And Directories
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
