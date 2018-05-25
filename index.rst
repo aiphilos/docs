@@ -19,7 +19,7 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
    :caption: Getting Started
    :name: sec-getting_started
 
-   getting_started/index
+   getting_started/index  
 
 .. toctree::
    :maxdepth: 2
@@ -27,6 +27,7 @@ If you are interested in our API-Documentation, have a look here: https://docs.a
    :name: sec-dev
 
    dev/index
+   dev/plugin_dev
 
 Index And Directories
 =======================
