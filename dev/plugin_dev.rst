@@ -2,9 +2,9 @@
 Plugin Development
 ==================
 
-A working plugin for aiPhilos is easy to develop and requires only three steps to actually get started.
+It's easy to develop a working plugin for aiPhilos and it requires only three steps to actually get started.
 
-This guide assumes that you have at least created an aiPhilos account and that you have created an user so you can test your plugin against our api.
+This guide assumes that you have at least created an aiPhilos account and that you have created an user so you can test your plugin against our API.
 If you are unsure how to do this, have a look at :ref:`third_party_integrations`.
 
 Apart from that your plugin needs to do the following things:
@@ -19,7 +19,7 @@ Create a database and sync items
  .. literalinclude:: ../shared/endpoints/POST_batch.txt
 
 
- Because of the time being, aiPhilos is only available in german, you will need to **replace {langauge} with 'de' (without the quotes) and {db} with the database name of your choice**.
+ Because for the time being, aiPhilos is only available in german, you will need to **replace {langauge} with 'de-de' (without the quotes) and {db} with the database name of your choice**.
 
  Database names do not need to be unique across users.
 
@@ -91,7 +91,7 @@ Set an appropriate scheme
  .. literalinclude:: ../shared/endpoints/PUT_scheme.txt
 
 
- as before, **replace {language} with 'de'(without the quotes) and {db} with the name of the database that you created earlier**.
+ as before, **replace {language} with 'de-de'(without the quotes) and {db} with the name of the database that you created earlier**.
 
  Again, the payload needs to be sent in json format, similar to this example:
 
@@ -125,7 +125,7 @@ Search
 
  .. literalinclude:: ../shared/endpoints/POST_GET_search.txt
 
- As before, **replace {language} with 'de' (without quotes) and {db} with the name of you database**.
+ As before, **replace {language} with 'de-de' (without quotes) and {db} with the name of you database**.
 
  The search can be initiated either by **POST- or by GET-Request**
 

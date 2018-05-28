@@ -4,7 +4,7 @@
 Third-Party Integrations
 ========================
 
-It is very easy to integrate aiphilos into a third-party system. To begin, you only have to:
+It is very easy to integrate aiPhilos into a third-party system. To begin, you only have to:
 
 create an aiPhilos account
 --------------------------
@@ -25,7 +25,7 @@ download the neccessary SDK
 
 we provide SDKs to make aiPhilos integration easier. Just Download the one you need and check out its documentation.
 
-have a look a our api documentation
+have a look a our API documentation
 -----------------------------------
 
 https://docs.aiphilos.com/api/
