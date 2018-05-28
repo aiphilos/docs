@@ -1,4 +1,4 @@
-# aiPhilos Shopware
+# Shopware
 
 To get started with our shopware plugin you will need to:
 
