@@ -12,4 +12,4 @@ To get started with our shopware plugin you will need to:
 
 5. As long as we are waiting for certification by shopware, download our Shopware-Plugin from our [website](https://www.aiphilos.com/shopsysteme)
 
-6. the downloaded zip-file contains a Readme.md. Follow its instructions to install and configure the Shopware-Plugin for your shop
+6. the downloaded zip-file contains a Readme.md. Follow its instructions to install and configure the Shopware-Plugin for your shop. **Please make sure you set up a cronjob (Shopware < 5.2.15) and that you configure it appropriately.**
