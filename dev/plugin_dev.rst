@@ -23,7 +23,7 @@ Create a database and sync items
 
  Database names do not need to be unique across users.
 
- Send the items that should be synchronize in json-format like this:
+ Send the items that should be synchronized in json-format like this:
 
  .. code-block:: javascript
 
@@ -152,11 +152,61 @@ Search
  .. literalinclude:: ../shared/requests/POST_search.json
     :language: json
 
+
+.. _Important-Configuration-Options:
+
+Important Configuration Options
+===============================
+ Your plugin will need to provide the following settings. The names are suggestions.
+
+ **active**
+ 
+ This setting should determine whether or not the AI search is active. Since aiPhilos needs to analyze and interpret the data before delivering reliable results, in addition to 
+ **on** or **off** a third option should be made available: **preparation**. This mode syncs the products to the aiPhilos-Cloud, but still retain the native search behaviour. After 
+ a certain period of time the setting can be switched to **on** at which point the search requests and results should be made via the aiPhilos api. 
+
+ see Important-Information_
+
+
+ **username**
+
+ Similar to developers, users will need to create an account with aiPhilos to authorize with our cloud services. This is where they enter their username.
+
+ **password**
+
+ Similar to developers, users will need to create an account with aiPhilos to authorize with our cloud services. This is where they enter their password.
+
+ **database name**
+
+ The name of the aiPhilos database used by the shop. This must be a unique name comprised of only upper and lower case letters from the English alphabet numbers and underscores.
+
+ **fallback**
+
+ This option should let the user configure if and under what conditions the search should fall back to systems default search.
+
+ * errors and no results (default)
+
+ Fall back to the default search when either no results are found by aiPhilos or an error occurs. This should be the default setting.
+
+ * Only on errors (minimal recommendation)
+
+ Only fall back when an error occurs during the attempted aiPhilos search. This is the recommended minimum setting and especially useful once aiPhilos has fully learned your article data and the results have become good enough that you can be certain that if aiPhilos finds nothing, nothing is the correct result.
+
+ * Only when no results are returned
+
+ Only fall back if aiPhilos returns no results. This option should exist mostly for the sake of completeness.
+
+
+
+.. _Important-Information:
+
 Important Information
 =====================
 
- After synchronizing items with aiPhilos and after setting a scheme, aiPhilos needs to analyze and interpret the data contained in the sent items. Depending on the complexity of the data and the amount of the items this may **take between three days and a week**. During this time search results are **not reflective of the final result**. It is advisable that you include some kind of learning mode into your plugin, which, as long as activated, does not replace the original search and to inform the user that enabling this mode is recommended as long as the synchronized data is not yet fully analyzed.
- **Disabling this mode, after the analysis and interpretation of the synchronized items is complete, should then switch to the actual aiPhilos search via the search-endpoint.**
+ After synchronizing items with aiPhilos and after setting a scheme, aiPhilos needs to analyze and interpret the data contained in the synchronized items. Depending on the complexity of the data and the amount of the items this may **take between three days and a week**. During this time search results are **not reflective of the final result**. It is important that you include an option to prepare the synchronized data (see Important-Configuration-Options_), which, as long as activated, does not replace the original search and only syncs the data to the aiPhilos-Cloud. It is also important to inform the user that enabling this mode is recommended as long as the synchronized data is not yet fully analyzed.
+ **Disabling this mode, after the analysis and interpretation of the synchronized items is finished, should then switch to the actual aiPhilos search via the search-endpoint.**
+
+ It would be advisable to implement additional parameters like "forceAi" to be able to test search results without setting the plugin to fully active.
 
  The full documentation for both endpoints can be looked up here:
 
