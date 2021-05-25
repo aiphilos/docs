@@ -15,16 +15,13 @@ The list with autosuggested search queries will be shown directly underneath the
 While inserting a query into the input field, possible word completions will be shown directly behind the typed letters. They will be replaced with a new autocompletion as soon as a typed letter does not fit the suggested word anymore. The suggested letters will be shown in "bold" while the typed ones in "regular". The font has to stay the same. The autocompletion can be selected by pressing the right arrow key.
 
 ### 1.4) Item #Wide
-
-
-
-![Elements](../../source/shared/img/wireframes/Elements.png)
+![Elements](../shared/img/wireframes/Elements.png)
 
 ## 2. Examples
-![Examples](../../source/shared/img/wireframes/Examples.png)
+![Examples](../shared/img/wireframes/Examples.png)
 
 ## 3. Views
-![Views](../../source/shared/img/wireframes/Views.png)
+![Views](../shared/img/wireframes/Views.png)
 
 ## 4. Search Result Page
 ## 5. No Result Page
