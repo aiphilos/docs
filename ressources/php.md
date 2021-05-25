@@ -49,5 +49,5 @@ Aiphilos\Api\Semantics\LexemeFactory::setDefaultClass('My\Namespace\And\Classnam
 Aiphilos\Api\Semantics\SynsetFactory::setDefaultClass('My\Namespace\And\Classname'); // Instance of Aiphilos\Api\Semantics\SynsetInterface
 ```
 
-### Items (Database and search engine)
-**TBD**
+## License
+This library is available under the Apache 2.0 License.

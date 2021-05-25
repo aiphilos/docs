@@ -5,39 +5,49 @@ aiPhilos Documentation
 
 Welcome to the official aiPhilos documentation.
 
+Links
+-----
+
 .. _a link: https://domain.invalid/
 
-If you are interested in our full API-Documentation, follow this link:
+Full API-Documentation:
 
 .. include:: shared/docLinks/swaggerLink.txt
 
-.. toctree::
-   :maxdepth: 2
-   :caption: About aiPhilos
-   :name: sec-about
+aiPhilos on GitHub:
 
-   about/index
+.. include:: shared/docLinks/githubLink.txt
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Getting Started
-   :name: sec-getting_started
-
-   getting_started/integration  
+Content
+-------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Development
-   :name: sec-dev
+   :caption: Concepts
+   :name: sec-concepts
 
-   dev/sdks
-   dev/plugin_dev
-   dev/terminology
+   concepts/index
 
-Index And Directories
-=======================
+.. toctree::
+   :maxdepth: 2
+   :caption: Integrations
+   :name: sec-integrations
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   integrations/standard
+   integrations/development
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Ressources
+   :name: sec-ressources
+
+   ressources/sdks
+   ressources/terminology
+
+.. toctree::
+   :maxdepth: 2
+   :caption: aiPhilos
+   :name: sec-aiphilos
+
+   aiphilos/index
 
