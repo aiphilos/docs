@@ -2,14 +2,21 @@
 
 Our imprint is bound by german law and therefore written in german.
 
-aiPhilos GmbH  
+aiPhilos GmbH
+
+
 Technologiepark Universität  
-Fahrenheitstr. 7 - 9  
+
+Fahrenheitstr. 7 - 9 
+
 28359 Bremen  
 
-Tel.: + 49 421 20 24 600   
+Tel.: + 49 421 20 24 600  
+
 Web: www.aiphilos.com  
+
 eMail: contact@aiphilos.com  
+
 
 Geschäftsführer: Andreas Kottisch    
 
