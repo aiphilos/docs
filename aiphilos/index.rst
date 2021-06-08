@@ -6,3 +6,5 @@
   about
   changelog
   faq
+  support
+  imprint
